@@ -123,6 +123,7 @@ def account():
     return render_template('account.html', title='Account', image_file=image_file, form=form)
 
 
+# Route - Posting Page
 @app.route("/post/new", methods=['GET', 'POST'])
 @login_required
 def new_post():
