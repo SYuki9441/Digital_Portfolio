@@ -50,6 +50,7 @@ class UpdateAccountForm(FlaskForm):
                 raise ValidationError('This email address is already used by another user. Please choose a different one.')
 
 
+# Form for storing postings
 class PostForm(FlaskForm):
     title = StringField('Title', validators=[DataRequired()])
     content = TextAreaField('Content', validators=[DataRequired()])

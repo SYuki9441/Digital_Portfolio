@@ -8,57 +8,39 @@ from flask_login import login_user, logout_user, login_required, current_user
 
 
 
-
-
-
-# Route - Home page
+## Route - Home page
 @app.route("/")
 @app.route("/home")
 def home():
     page = request.args.get('page', 1, type=int)
-    posts = Post.query.order_by(Post.date_posted.desc()).paginate(page=page,per_page=3)
+    posts = Post.query.order_by(Post.date_posted.desc()).paginate(page=page,per_page=4)
     return render_template('home.html', posts=posts)
+# When retrieving the page value from the request, it defaults to 1 if not given.
 
-# @app.route("/")
-# @app.route("/home")
-# def home():
-#     q = request.args.get('q')
-    
-#     if q:
-#         posts = Post.query.filter(Post.title.contains(q) | Post.body.contains(q))
-#     else:
-#         posts = Post.query.order_by(Post.date_posted.desc()).all
-    
-#     page = request.args.get('page')
-    
-#     if page and page.isdigit():
-#         page = int(page)
-#     else:
-#         page = 1
-        
-#     pages = posts.paginate(page=page, per_page=2)
-    
-#     return render_template('home.html', posts=posts, pages=pages)
 
-# Route - Downloading file
+
+## Route - Downloading file
 @app.route('/download')
 def download():
     path = "./static/pdf/CV-Yuki_Sakata.pdf"
     return send_file(path, as_attachment=True)
 
 
-# Route - About Me page
+
+## Route - About Me page
 @app.route("/resume")
 def about():
     return render_template('about.html', title='About')
 
 
-# Route - Register page
+
+## Route - Register page
 @app.route("/register", methods=['GET', 'POST'])
 def register():
     if current_user.is_active:
         return redirect(url_for('home'))
     form = RegistrationForm()
+# POST request (at registration)
     if form.validate_on_submit():
         hashed_password = bcrypt.generate_password_hash(form.password.data).decode('utf-8')
         user = User(username=form.username.data, email=form.email.data, password=hashed_password)
@@ -68,25 +50,32 @@ def register():
         return redirect(url_for('login'))
     return render_template('register.html', title='Register', form=form)
 
+# Adding a process to generate a hash value and store it in the DB when registering an account. 
+# Also, an authentication process is added to ensure that the hash value is correct when logging in.
 
-# Route - Login page
+
+
+## Route - Login page
 @app.route("/login", methods=['GET', 'POST'])
 def login():
     if current_user.is_active:
         return redirect(url_for('home'))
     form = LoginForm()
     if form.validate_on_submit():
+# POST request (at login)
         user = User.query.filter_by(email=form.email.data).first()
         if user and bcrypt.check_password_hash(user.password, form.password.data):
             login_user(user, remember=form.remember.data)
             next_page = request.args.get('next')
             return redirect(next_page) if next_page else redirect(url_for('home'))
+# Adding checks for already registered accounts, and errors for already registered accounts.
         else:
             flash('Login Unsuccessful. Please check your email address and password', 'danger')
     return render_template('login.html', title='Login', form=form)
 
 
-# Route - Log out
+
+## Route - Log out
 @app.route("/logout")
 def logout():
     logout_user()
@@ -102,7 +91,9 @@ def logout():
     
 #     return picture_fn
 
-# Route - Account Page
+
+
+## Route - Account Page
 @app.route("/account", methods=['GET', 'POST'])
 @login_required
 def account():
@@ -123,10 +114,12 @@ def account():
     return render_template('account.html', title='Account', image_file=image_file, form=form)
 
 
-# Route - Posting Page
+
+## Route - Posting Page
 @app.route("/post/new", methods=['GET', 'POST'])
 @login_required
 def new_post():
+#Stored in DB when entered from the New Post page.
     form = PostForm()
     if form.validate_on_submit():
         post = Post(title=form.title.data, content=form.content.data, author=current_user)
@@ -135,6 +128,8 @@ def new_post():
         flash('Your post has been posted successfully', 'success')
         return redirect(url_for('home'))
     return render_template('create_post.html', title='New Post', form=form, legend='New Post')
+# When the New Post link is clicked, the user is redirected to the input page.
+
 
 
 @app.route("/post/<int:post_id>")
@@ -143,12 +138,14 @@ def post(post_id):
     return render_template('post.html', title=post.title, post=post)
     
 
+
+## Route - Update post
 @app.route("/post/<int:post_id>/update", methods=['GET', 'POST'])
 @login_required
 def update_post(post_id):
     post = Post.query.get_or_404(post_id)
     if not post.author == current_user:
-        abort(403)
+        abort(403) # Give a 403 error, in case the user isn't the actual user.
     form = PostForm()
     if form.validate_on_submit():
         post.title = form.title.data
@@ -161,7 +158,8 @@ def update_post(post_id):
         form.content.data = post.content
     return render_template('create_post.html', title='Update Post', form=form, legend='Update Post')
     
-    
+
+## Route - Deleting post    
 @app.route("/post/<int:post_id>/delete", methods=['GET', 'POST'])
 @login_required
 def delete_post(post_id):
@@ -172,6 +170,7 @@ def delete_post(post_id):
     db.session.commit()
     flash("Your post has been deleted successfully",'success')
     return redirect(url_for('home'))
+
 
 
 @app.route("/user/<string:username>")
