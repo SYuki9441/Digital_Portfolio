@@ -40,9 +40,24 @@ Easily remember logins, logouts and sessions using decorators.
 
 
 ## References
-> Account.html  Edwards, S. 2015. *Blank Profile Picture*. Available at: https://pixabay.com/vectors/blank-profile-picture-mystery-man-973460/ [Accessed: 18 January 2023].
+
+> Coding Market. 2021. *How to create the Responsive Resume UI Design using HTML and CSS -- Resume Design -- CV Design*. Available at: https://www.youtube.com/watch?v=c9Yn20h2Jxw [Accessed: 15 January 2023].
 
 > Danilevich, O. 2020. *[Searched　for "coding"]*. Available at: https://www.pexels.com/ja-jp/photo/4974912/ [Accessed: 18 January 2023].
+
+> Edwards, S. 2015. *Blank Profile Picture*. Available at: https://pixabay.com/vectors/blank-profile-picture-mystery-man-973460/ [Accessed: 18 January 2023].
+
+> Schafer, C. 2018. *Python Flask Tutorial: Full-Featured Web App Part 3 - Forms and User Input*. Available at: https://www.youtube.com/watch?v=UIJKdCIEXUQ&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=3 [Accessed: 13 January 2023]
+
+> Schafer, C. 2018. *Python Flask Tutorial: Full-Featured Web App Part 4 - Database with Flask-SQLAlchemy*. Available at: https://www.youtube.com/watch?v=cYWiDiIUxQc&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=4 [Accessed: 13 January 2023]
+
+> Schafer, C. 2018. *Python Flask Tutorial: Full-Featured Web App Part 6 - User Authentication*. Available at: https://www.youtube.com/watch?v=CSHx6eCkmv0&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=6 [Accessed: 14 January 2023]
+
+> Schafer, C. 2018. *Python Flask Tutorial: Full-Featured Web App Part 8 - Create, Update, and Delete Posts*. Available at: https://www.youtube.com/watch?v=u0oDDZrDz9U&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=8 [Accessed: 14 January 2023]
+
+> Schager, C. 2018. *Python Flask Tutorial: Full-Featured Web App Part 9 - Pagination*. Available at: https://www.youtube.com/watch?v=PSWf2TjTGNY&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=9 [Accessed: 14 January 2023]
+
+
 
 <!-- 
 Surname, INITIAL(S). Year. Title of image. [Online]. [Date accessed]. Available from: URL -->

@@ -50,13 +50,6 @@
         <hr />
         <!-- <p class="subtext"><a class="project-link" href="#">View here</a></p> -->
     </div>
-      <!-- <div class="project-card">
-          <img class="project-image" src="static/mypic/kanon.jpg" alt="Project One Image" />
-          <h3>Project Two</h3>
-          <p class="subtext">This is my project and some text about it. I enjoyed making this project.</p>
-          <hr />
-          <p class="subtext"><a class="project-link"class="project-link" href="#">View here</a></p>
-      </div> -->
   </div>
 </div>
 
@@ -66,7 +59,6 @@
         <h3>Leave Your Comment</h3>
       </div>
       {% if current_user.is_authenticated %}
-          <!-- <a class="btn btn-primary btn-lg" href="{{ url_for('new_post')}}">NewPost</a> -->
       <div class="button"><a href="{{ url_for('new_post')}}">Comment</a></div>
       {% endif %}
     </div>
@@ -98,3 +90,15 @@
   </div>  
 {% endblock content %}
 
+
+
+
+
+<!-- # Reference
+# This code was adapted from a post by C. Schafer.
+# Accessed: 13-1-2023, 14-1-2023
+# https://www.youtube.com/watch?v=UIJKdCIEXUQ&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=3
+# https://www.youtube.com/watch?v=cYWiDiIUxQc&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=4
+# https://www.youtube.com/watch?v=CSHx6eCkmv0&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=6
+# https://www.youtube.com/watch?v=u0oDDZrDz9U&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=8
+# https://www.youtube.com/watch?v=PSWf2TjTGNY&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=9 -->

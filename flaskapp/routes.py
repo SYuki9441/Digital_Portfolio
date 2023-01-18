@@ -158,6 +158,7 @@ def update_post(post_id):
         form.content.data = post.content
     return render_template('create_post.html', title='Update Post', form=form, legend='Update Post')
     
+    
 
 ## Route - Deleting post    
 @app.route("/post/<int:post_id>/delete", methods=['GET', 'POST'])
@@ -173,6 +174,7 @@ def delete_post(post_id):
 
 
 
+## Route - Personal post page
 @app.route("/user/<string:username>")
 def user_posts(username):
     page = request.args.get('page', 1, type=int)
