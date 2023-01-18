@@ -38,3 +38,11 @@ Easily remember logins, logouts and sessions using decorators.
 
 - Downloading files using the API – CV file
 
+
+## References
+> Edwards, S. 2015. *Blank Profile Picture*. Available at: https://pixabay.com/vectors/blank-profile-picture-mystery-man-973460/ [Accessed: 18 January 2023].
+
+> Danilevich, O. 2020. *[Searched　for "coding"]*. Available at: https://www.pexels.com/ja-jp/photo/4974912/ [Accessed: 18 January 2023].
+
+<!-- 
+Surname, INITIAL(S). Year. Title of image. [Online]. [Date accessed]. Available from: URL -->
