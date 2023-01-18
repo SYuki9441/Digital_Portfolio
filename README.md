@@ -1,10 +1,10 @@
-# Digital Portfolio　- flaskapp
+# Digital Portfolio - flaskapp
 ## User name - C22012187
 Digital portfolios with flask, only signed-up users can post comments.
 
 ## How to run code
 ```bash
-$python run.py
+$ python run.py
 ```
 
 ## To leave comment, register first
@@ -36,5 +36,5 @@ Easily remember logins, logouts and sessions using decorators.
 
 - Pagination functionality using Flask-SQLAlchemy
 
-- Downloading files using the API　– CV file
+- Downloading files using the API – CV file
 
