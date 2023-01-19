@@ -49,7 +49,7 @@ Easily remember logins, logouts and sessions using decorators.
 
 > Kubów, A. 2021. *Build a Responsive Online Portfolio from scratch!*. Available at: https://www.youtube.com/watch?v=-D6oTPA4vXc&t=4017s [Accessed: 15 January 2023].
 
-> Programming Tutorial. 5-1-2022. *How to create a responsive navigation bar [Introduction to HTML/CSS]*. Available at: https://www.youtube.com/watch?v=feu9m1E4T9E [Accessed: 15 January 2023].
+> Programming Tutorial. 2022. *How to create a responsive navigation bar [Introduction to HTML/CSS]*. Available at: https://www.youtube.com/watch?v=feu9m1E4T9E [Accessed: 15 January 2023].
 
 > Schafer, C. 2018. *Python Flask Tutorial: Full-Featured Web App Part 3 - Forms and User Input*. Available at: https://www.youtube.com/watch?v=UIJKdCIEXUQ&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=3 [Accessed: 13 January 2023]
 
