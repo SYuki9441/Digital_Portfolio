@@ -7,8 +7,8 @@ Digital portfolios with flask, only signed-up users can post comments.
 $ python run.py
 ```
 
-## To leave comment, register first
-Users need to register and sign in to leave a comment.
+## To a leave comment, register first
+Users need to register and sign in to post a comment.
 
 ### Try as a test user
 ```bash
