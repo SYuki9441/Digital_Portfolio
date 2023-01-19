@@ -41,17 +41,23 @@ Easily remember logins, logouts and sessions using decorators.
 
 ## References
 
-> Coding Market. 2021. *How to create the Responsive Resume UI Design using HTML and CSS -- Resume Design -- CV Design*. Available at: https://www.youtube.com/watch?v=c9Yn20h2Jxw [Accessed: 15 January 2023].
+> Coding Market. 2021. *How to create the Responsive Resume UI Design using HTML and CSS -- Resume Design -- CV Design*. Available at: https://www.youtube.com/watch?v=c9Yn20h2Jxw [Accessed: 16 January 2023].
 
 > Danilevich, O. 2020. *[Searched　for "coding"]*. Available at: https://www.pexels.com/ja-jp/photo/4974912/ [Accessed: 18 January 2023].
 
 > Edwards, S. 2015. *Blank Profile Picture*. Available at: https://pixabay.com/vectors/blank-profile-picture-mystery-man-973460/ [Accessed: 18 January 2023].
 
+> Kubów, A. 2021. *Build a Responsive Online Portfolio from scratch!*. Available at: https://www.youtube.com/watch?v=-D6oTPA4vXc&t=4017s [Accessed: 15 January 2023].
+
+> Programming Tutorial. 5-1-2022. *How to create a responsive navigation bar [Introduction to HTML/CSS]*. Available at: https://www.youtube.com/watch?v=feu9m1E4T9E [Accessed: 15 January 2023].
+
 > Schafer, C. 2018. *Python Flask Tutorial: Full-Featured Web App Part 3 - Forms and User Input*. Available at: https://www.youtube.com/watch?v=UIJKdCIEXUQ&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=3 [Accessed: 13 January 2023]
 
 > Schafer, C. 2018. *Python Flask Tutorial: Full-Featured Web App Part 4 - Database with Flask-SQLAlchemy*. Available at: https://www.youtube.com/watch?v=cYWiDiIUxQc&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=4 [Accessed: 13 January 2023]
 
-> Schafer, C. 2018. *Python Flask Tutorial: Full-Featured Web App Part 6 - User Authentication*. Available at: https://www.youtube.com/watch?v=CSHx6eCkmv0&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=6 [Accessed: 14 January 2023]
+> Schafer, C. 2018. *Python Flask Tutorial: Full-Featured Web App Part 6 - User Authentication*. Available at: https://www.youtube.com/watch?v=CSHx6eCkmv0&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=6 [Accessed: 13 January 2023]
+
+> Schafer, C. 2018. *Python Flask Tutorial: Full-Featured Web App Part 7 - User Account and Profile Picture*. Available at: https://www.youtube.com/watch?v=803Ei2Sq-Zs&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=7 [Accessed: 14 January 2023]
 
 > Schafer, C. 2018. *Python Flask Tutorial: Full-Featured Web App Part 8 - Create, Update, and Delete Posts*. Available at: https://www.youtube.com/watch?v=u0oDDZrDz9U&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=8 [Accessed: 14 January 2023]
 
