@@ -187,7 +187,7 @@ def user_posts(username):
 
 
 # References
-# This code was adapted from a post by C. Schafer.
+# This code was adapted from a post by C. Schafer. 4-5-2018
 # Accessed: 13-1-2023, 14-1-2023
 # https://www.youtube.com/watch?v=UIJKdCIEXUQ&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=3
 # https://www.youtube.com/watch?v=cYWiDiIUxQc&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=4
