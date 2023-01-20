@@ -49,7 +49,6 @@ def register():
         flash('Thanks for registering with us! You are now able to log in', 'success')
         return redirect(url_for('login'))
     return render_template('register.html', title='Register', form=form)
-
 # Adding a process to generate a hash value and store it in the DB when registering an account. 
 # Also, an authentication process is added to ensure that the hash value is correct when logging in.
 
