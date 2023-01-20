@@ -1,9 +1,9 @@
-from flaskapp import app
+from flaskapp import app as application
 
 
 # Debugger
 if __name__ == '__main__':
-    app.run(debug=True)
+    application.run(debug=True)
 
 
 
