@@ -1,11 +1,14 @@
 # Digital Portfolio - flaskapp
+
 ## User name - C22012187
+
 ## URL of my website
 ```bash
 http://c-22012187-cmt-120-cw-2-git-digital-portfolio-project.apps.openshift.cs.cf.ac.uk/
 ```
 
-#### Digital portfolios with flask, only signed-up users can post comments.
+## Overview
+### Digital portfolios with flask, only signed-up users can post comments.
 
 ## How to run code
 ```bash
