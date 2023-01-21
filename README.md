@@ -4,7 +4,7 @@
 ## User name - C22012187
   
 
-## URL of my website
+## URL of my website on the OpenShift server
 ```bash
 http://c-22012187-cmt-120-cw-2-git-digital-portfolio-project.apps.openshift.cs.cf.ac.uk/
 ```
@@ -14,7 +14,7 @@ http://c-22012187-cmt-120-cw-2-git-digital-portfolio-project.apps.openshift.cs.c
 #### Digital portfolio with flask, only signed-up users can post comments.
   
 
-## How to run code
+## How to run the code
 ```bash
 $ flask run
 ```
