@@ -16,10 +16,14 @@ http://c-22012187-cmt-120-cw-2-git-digital-portfolio-project.apps.openshift.cs.c
 
 ## How to run code
 ```bash
+$ flask run
+```
+  
+or  
+```bash
 $ python wsgi.py
 ```
   
-
 ## To a leave comment, register first
 Users need to register and sign in to post a comment.
   
