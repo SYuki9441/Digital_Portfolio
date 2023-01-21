@@ -1,35 +1,35 @@
 # Digital Portfolio - flaskapp
-
+  
 
 ## User name - C22012187
-
+  
 
 ## URL of my website
 ```bash
 http://c-22012187-cmt-120-cw-2-git-digital-portfolio-project.apps.openshift.cs.cf.ac.uk/
 ```
-
+  
 
 ## Overview
 #### Digital portfolio with flask, only signed-up users can post comments.
-
+  
 
 ## How to run code
 ```bash
 $ python wsgi.py
 ```
-
+  
 
 ## To a leave comment, register first
 Users need to register and sign in to post a comment.
-
+  
 
 ### Try as a test user
 ```bash
 Email: TestUser@demo.com
 Password: password
 ```
-
+  
 
 ## Functions in use
 - Template inheritance  
