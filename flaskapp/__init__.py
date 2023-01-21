@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'My super secret key!'
 
 # Database - sqlite
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///flaskapp.db'
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///flaskapp.db'
 
 # Database - mysql
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://USERNAME:PASSWORD@csmysql.cs.cf.ac.uk:3306/USERNAME_DATABASE_NAME'
