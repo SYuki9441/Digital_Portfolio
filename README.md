@@ -24,7 +24,7 @@ or
 $ python wsgi.py
 ```
   
-## To a leave comment, register first
+## To leave a comment, register first
 Users need to register and sign in to post a comment.
   
 
