@@ -14,3 +14,11 @@ burger.addEventListener("click", () => {
      });
      burger.classList.toggle("toggle");
 });
+
+
+
+
+
+/* This code was adapted from a post by Programmingtutorial. 5-1-2022 */
+/* https://www.youtube.com/watch?v=feu9m1E4T9E */
+/* Accessed: 15-1-2023 */
