@@ -54,7 +54,7 @@ Easily remember logins, logouts and sessions using decorators.
 
 - Pagination functionality using Flask-SQLAlchemy
 
-- Downloading files using the API – CV file
+- Downloading files using the API – CV file(pdf)
 
 
 ## References
