@@ -22,7 +22,7 @@ def home():
 ## Route - Downloading file
 @app.route('/download')
 def download():
-    path = "./static/pdf/CV-Yuki_Sakata.pdf"
+    path = "./static/pdf/CV_Yuki_Sakata.pdf"
     return send_file(path, as_attachment=True)
 
 
